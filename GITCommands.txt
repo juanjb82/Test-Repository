@@ -1,0 +1,14 @@
+Basic commands:
+$ git init 		\\initialize local Git Repository
+$ git add <file> 	\\add file to index (staging area: previous to commit)
+$ git status 		\\check status of working tree
+$ git commit 		\\commit changes in index
+
+For remote repositories:
+$ git push 		\\push to remote repository
+$ git pull 		\\pull latest from remote repository
+$ git clone 		\\clone repository into a new directory
+
+After $git init, put username and user email
+$ git config --local user.name "username"
+$ git config --local user.email "username@usermail.com"
