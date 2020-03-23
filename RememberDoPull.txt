@@ -1,0 +1,9 @@
+After 
+$ git add -A
+and 
+$ git commit -m "Commit message"
+
+Do check updates in the remote repository using
+$ git pull origin master
+
+(In order to "sync" the remote repository with your local one?)
