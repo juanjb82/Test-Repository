@@ -1,0 +1,22 @@
+On an empy folder, do:
+$ git clone https://github.com/ORIGINAL-OWNER/ORIGINAL-REPOSITORY.gt .
+
+That will bring the remote repository to the current folder.
+Next, configure local username and email
+$ git config --local user.name "juanjoseleongil"
+$ git config --local user.email "juan.leon@udea.edu.co"
+
+Some verifications:
+$ git status
+$ git remote -v (appears only "origin" for "fetch" and "push")
+
+Commit changes locally:
+
+Show changes made:
+$ git diff 
+
+Check status:
+$ git status
+
+Create commit:
+$ git commit -m "commit text"
